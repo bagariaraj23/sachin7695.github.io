@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+}
+
+body {
+  background-color: #dfdbe5;
+  background-image: url("asdf.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.801);
+  border-radius: 10px;
+  width: 600px;
+  background-color: rgba(20, 3, 3, 0.3);
+  margin: 10px;
+}
+.fas.fa-quote-left {
+  font-size: 50px;
+  color: rgb(29, 214, 183);
+}
+.quote {
+  text-align: center;
+  font-style: oblique;
+  color: rgb(17, 4, 4);
+}
+.author {
+  color: rgb(43, 10, 4);
+  font-size: 18px;
+}
+hr {
+  margin: 10px 0;
+  width: 80%;
+  border: 0.5px solid black;
+}
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+}
+.twiiter-share-button {
+  display: flex;
+  text-align: center;
+
+  text-decoration: none;
+  font-size: 20px;
+  background-color: rgba(185, 128, 21, 0.644);
+  padding: 10;
+  border: 2px solid black;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+}
+.button button {
+  cursor: pointer;
+  color: rgb(43, 226, 150);
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+.styled {
+  border: 0;
+  line-height: 1.5;
+  padding: 0 10px;
+  font-size: 0.5rem;
+  text-align: left;
+  color: #fff;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  border-radius: 10px;
+  background-color: rgba(220, 0, 0, 1);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.styled:hover {
+  background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
